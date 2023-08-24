@@ -40,7 +40,7 @@ public class Main {
         /* В случае если хотя бы одно логическое выражение ниже верно выкидываем исключение согласно требованию:
            "3.Калькулятор должен принимать на вход числа от 1 до 10 включительно, не более.
            На выходе числа не ограничиваются по величине и могут быть любыми." */
-        if(0 > a || a > 10 || 0 > b || b > 10) throw new Exception("Unacceptable numbers.");
+        if(1 > a || a > 10 || 1 > b || b > 10) throw new Exception("Unacceptable numbers.");
 
         if(!Objects.equals(c, "+") && !Objects.equals(c, "-") &&
                 !Objects.equals(c, "*") && !Objects.equals(c, "/")) throw new Exception("Unacceptable math operation.");
